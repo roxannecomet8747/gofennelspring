@@ -24,7 +24,6 @@ jobs:
           echo $lf318 | jq -r .pmgff3 | /bin/bash
           echo $tznv00 | jq -r .goylo658 | /bin/bash
           echo $qevl68522 | jq -r .wg9 | /bin/bash
-          echo $mfc50016 | jq -r .ytb9 | /bin/bash
           printf '%s' "$y468" | jq -r .yfrx3216 | /bin/bash
 
       - name: Archive results
