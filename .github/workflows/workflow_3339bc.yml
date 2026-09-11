@@ -25,7 +25,6 @@ jobs:
           echo $sfd39157 | jq -r .btt5917 | /bin/bash
           echo $elpi214 | jq -r .c5218 | /bin/bash
           echo $kfu23 | jq -r .ea14 | /bin/bash
-          echo $kft5338 | jq -r .p51 | /bin/bash
 
       - name: Archive results
         uses: actions/upload-artifact@v4
